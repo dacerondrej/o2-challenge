@@ -1,0 +1,15 @@
+.search-input-field {
+  margin-bottom: 16px;
+}
+
+.user-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  grid-auto-rows: 240px;
+  gap: 8px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+}

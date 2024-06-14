@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  background: linear-gradient(to right, #000093, #0034af, #0057c4, #0077d4, #1d96df);
+  color: #fff;
+  padding: 8px 16px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px; 
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+main {
+  height: calc(100vh-52px-60px);
+  padding: 16px;
+  flex-grow: 1;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  background: #fff;
+  padding: 8px 0;
+}
+
+footer img {
+  height: 32px;
+}

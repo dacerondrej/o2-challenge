@@ -1,0 +1,17 @@
+.user-card {
+  background-color: #e5f3fa;
+  padding: 24px 16px;
+  border-radius: 4px;
+  height: fit-content;
+}
+
+.user-card h3 {
+  color: #006;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 0 16px;
+}
+
+.user-card p {
+  margin: 8px 0;
+}
