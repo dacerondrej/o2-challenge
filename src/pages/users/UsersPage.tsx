@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { type ReactNode, useState } from 'react';
 import { Loader } from '../../components/Loader/Loader';
 import { useUsersQuery } from './_queries/useUsersQuery'
 import { UserCard } from './_components/userCard/UserCard';
@@ -12,7 +12,7 @@ export const UsersPage = () => {
     error
   } = useUsersQuery();
 
-  let pageContent: JSX.Element;
+  let pageContent: ReactNode;
   if (isLoading) {
     pageContent = <Loader />;
   } else if (error) {
