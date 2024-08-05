@@ -16,7 +16,7 @@ export const userSchema = z.object({
     catchPhrase: z.string(),
     name: z.string(),
   }),
-  email: z.string(),
+  email: z.string().email(),
   id: z.number(),
   name: z.string(),
   phone: z.string(),
